@@ -25,11 +25,11 @@ function About(props) {
         </p>
 
         <p>
-          If you would like to take a look at my latest projects, you visit my profile and my <a href='https://github.com/tanishaCodes' rel='noopener noreferrer'>GitHub</a> pages.
+          If you would like to take a look at my latest projects, you can visit my profile and my <a href='https://github.com/tanishaCodes' rel='noopener noreferrer'>GitHub</a>.
         </p>
 
         <p>
-          I would love to connect with you, so please reach out to me through my contact page.
+          I would like to connect with you, so please reach out to me through my contact page.
         </p>
 
         <p>Talk soon!</p>
