@@ -13,11 +13,11 @@ function About(props) {
 
       <Content>
         <p>
-          My name is Tanisha Howell. I'm a Full Stack Web Developer with experience in MongoDB, Express.js, React, and Node.js or MERN Stack. I also have hands on experience in HTML, CSS, Javascript and CICD or Continuous Integration and Continuous Delivery.
+          My name is Tanisha Howell. I'm a Full Stack Web Developer with experience in MongoDB, Express.js, React, and Node.js or MERN Stack. I also have hands on experience in HTML, CSS, and Javascript.
         </p>
 
         <p>
-          I currently work as a freelancer and volunteer to create web applications for friends and family. One day I will establish my own web development firm.
+          I currently keep up my skills by creating web applications for friends and family. One day I will establish my own web development firm.
         </p>
 
         <p>

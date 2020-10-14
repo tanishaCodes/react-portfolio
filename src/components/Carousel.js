@@ -29,7 +29,7 @@ class Carousel extends React.Component {
                     title: 'Train Time',
                     subTitle: 'Train schedule app',
                     imgSrc: train,
-                    link: 'https://www.youtube.com/channel/UCxSITxL2JbF229OGChttps://tanishacodes.github.io/train-time/qieVZw',
+                    link: 'https://tanishacodes.github.io/train-time/',
                     selected: false
                 },
                 {
