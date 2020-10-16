@@ -5,7 +5,7 @@ Here are some of the specifics about my portfolio React app:
 * Home page: entrance.
 * About page: shares my current practices and goals in coding.
 * Portfolio page: showcases some of my latest works.
-* Contact page: displays a contact form where you can get in touch with me. The code for this page is hidden to protect the Emailjs keys and my email address.
+* Contact page: displays a contact form where you can get in touch with me, find the link to my LinkedIn and GitHub pages.
 
 When you type in your information & message in the contact form and submit it, this is what I will see in my Gmail inbox:
 
