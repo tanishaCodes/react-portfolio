@@ -1,69 +1,35 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# My Portfolio
 
-## Available Scripts
+Here are some of the specifics about my portfolio React app:
 
-In the project directory, you can run:
+* Home page: mlango (the entrance)
+* About page: shares my current practices and goals in coding.
+* Portfolio page: showcases some of my latest works.
+* Contact page: displays a contact form where you can get in touch with me. The code for this page is hidden to protect the Emailjs keys and my email address.
 
-### `npm start`
+When you type in your information & message in the contact form and submit it, this is what I will see in my Gmail inbox:
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+From:
+<img src='assets\images\contact-form-example.jpg' alt='Screenshot of a Contact Form Example' width='400'>
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+To:
+<img src='assets\images\emailjs-contact-info-recvd.jpg' alt='Screenshot of a Email Received' width='400'>
 
-### `npm test`
+## Technologies Used
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* React
+* Email.js
+* React Router Dom
+* React Bootstrap & Bootstrap
+* React-spring
+* Style-components
 
-### `npm run build`
+## Learning Points
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+ It took me a few months to code this app because my initial desire was to include an email API in the backend. Unfortunately, I could not get the email API to function because the API keys I used from NodeMailer and SendGrid were nonfunctioning. Therefore, I resorted to an email service for the frontend. 
+ 
+## Plans
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+ Eventually, I will return to this app to include an email API in the backend.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
-"# react-portfolio" 
+ I also will change the layout to an SPA.
