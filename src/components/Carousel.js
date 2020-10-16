@@ -37,7 +37,7 @@ class Carousel extends React.Component {
                     title: 'Flower Memory Game',
                     subTitle: 'Challenging memory game',
                     imgSrc: flowers,
-                    link: 'https://flower-memory-game.herokuapp.com/',
+                    link: 'https://game-memory-react.herokuapp.com/',
                     selected: false
                 },
                 {
