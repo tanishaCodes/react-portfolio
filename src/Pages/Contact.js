@@ -64,7 +64,7 @@ class Contact extends React.Component {
         }, (error) => {
             console.log(error.text);
         });
-
+        
           this.resetForm()
       }
 
@@ -110,8 +110,8 @@ class Contact extends React.Component {
                                   Send
                               </Button>
     
-                    {this.state.emailSent===true && <p className="d-inline success-msg">Message Sent!</p>}
-                    {this.state.emailSent===false && <p className="d-inline err-msg">Your Message Was Not Sent!</p>}
+                    {this.state.emailSent===true && <p className="d-inline success-msg">Message Sent</p>}
+                    {this.state.emailSent===false && <p className="d-inline err-msg">Your Message Was Not Sent</p>}
                 </Form>
     
                 <div className='vertical-line'></div>

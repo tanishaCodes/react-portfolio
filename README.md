@@ -1,6 +1,8 @@
 # My Portfolio
 
-Here are some of the specifics about my portfolio React app:
+https://tanisha-howell.herokuapp.com/
+
+Here are some of the specifics about my React portfolio app:
 
 * Home page: entrance.
 * About page: shares my current practices and goals in coding.

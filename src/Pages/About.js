@@ -13,7 +13,7 @@ function About(props) {
 
       <Content>
         <p>
-          Hello! My name is Tanisha Howell. I'm a Full Stack Web Developer with experience in MongoDB, Express.js, React, and Node.js or MERN Stack. I also have experience with HTML, CSS, and Javascript.
+          Hello! My name is Tanisha Howell. I'm a Full Stack Web Developer with experience in MongoDB, Express.js, React, and Node.js or MERN Stack. I also have experience with HTML, CSS, Javascript, jQuery, MySql, Firebase, and APIs.
         </p>
 
         <p>
@@ -25,7 +25,7 @@ function About(props) {
         </p>
 
         <p>
-          I would love to connect with you, so please reach out to me through different avenues via my contact page.
+          In my spare time, I enjoy painting, hiking and playing with my tuxedo-cat Luna. I would love to connect with you, so please reach out to me through different avenues via my contact page.
         </p>
 
         <p>Talk soon!</p>
