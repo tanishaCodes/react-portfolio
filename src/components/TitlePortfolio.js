@@ -3,7 +3,6 @@ import React from 'react'
 import PortfolioImage from '../assets/images/portfolioImage.png'
 
 function TitlePortfolio(props) {
-
     return(   
      <>
      <div className='container' >

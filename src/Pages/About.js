@@ -13,23 +13,19 @@ function About(props) {
 
       <Content>
         <p>
-          My name is Tanisha Howell. I'm a Full Stack Web Developer with experience in MongoDB, Express.js, React, and Node.js or MERN Stack. I also have hands on experience in HTML, CSS, and Javascript.
+          Hello! My name is Tanisha Howell. I'm a Full Stack Web Developer with experience in MongoDB, Express.js, React, and Node.js or MERN Stack. I also have experience with HTML, CSS, and Javascript.
         </p>
 
         <p>
-          I currently keep up my skills by creating web applications for friends and family. One day I will establish my own web development firm.
+          I currently work as a Case Manager in the Social Work field and will transition into the tech field completely. As a May 2020 graduate of UT Austin Coding Bootcamp, I enjoy creating applications in React and I continue to polish and grow my skills by completing projects.
         </p>
 
         <p>
-          As a graduate of UT Austin Coding Bootcamp, I continue my learning in MERN and plan on adding Python and Mobile Application Development to my repertoire.
+          If you would like to take a look at my latest projects, you can visit my portfolio and my <a href='https://github.com/tanishaCodes' rel='noopener noreferrer'>GitHub</a> pages.
         </p>
 
         <p>
-          If you would like to take a look at my latest projects, you can visit my profile and my <a href='https://github.com/tanishaCodes' rel='noopener noreferrer'>GitHub</a>.
-        </p>
-
-        <p>
-          I would like to connect with you, so please reach out to me through my contact page.
+          I would love to connect with you, so please reach out to me through different avenues via my contact page.
         </p>
 
         <p>Talk soon!</p>
@@ -37,12 +33,6 @@ function About(props) {
       </Content>
 
     </section>
-
-
-
-
-
- 
  );
 }
 

@@ -3,7 +3,7 @@ import React from 'react';
 import { init } from 'emailjs-com';
 
 import styled from 'styled-components';
-import '../index.css';
+import '../index.css'
 
 import TitleContact from '../components/TitleContact';
 
@@ -11,9 +11,6 @@ import Form from 'react-bootstrap/Form';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-
-// import Axios from 'axios';
-
 
 const Button = styled.button`
     background-color: #8c52ff;
@@ -47,9 +44,9 @@ class Contact extends React.Component {
 
     handleSubmit(e) {
       e.preventDefault();
-  
+  // eslint-disable-next-line
         const { name, email, message } = this.state
-
+  // eslint-disable-next-line
         let templateParams = {
             from_name: email,
             to_name:'thowell.dev@gmail.com',
@@ -100,7 +97,7 @@ class Contact extends React.Component {
                             </Form.Group>
 
                             <Form.Group>
-                            <Form.Label htmlFor="user_email">Email</Form.Label> 
+                            <Form.Label htmlFor="user_email">Email</Form.Label>   {/* how to get email address to also send */}
                                   <Form.Control id="user_email" name="user_email" type="user_email" value={this.state.email} onChange={this.handleChange.bind(this, 'email')} required />
                             </Form.Group>
 
@@ -113,9 +110,8 @@ class Contact extends React.Component {
                                   Send
                               </Button>
     
-    
-                    {this.state.emailSent === true && <p className="d-inline success-msg">Message Sent!</p>}
-                    {this.state.emailSent === false && <p className="d-inline err-msg">Your Message Was Not Sent!</p>}
+                    {this.state.emailSent===true && <p className="d-inline success-msg">Message Sent!</p>}
+                    {this.state.emailSent===false && <p className="d-inline err-msg">Your Message Was Not Sent!</p>}
                 </Form>
     
                 <div className='vertical-line'></div>

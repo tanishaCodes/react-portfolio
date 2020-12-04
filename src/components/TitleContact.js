@@ -3,7 +3,6 @@ import React from 'react'
 import ContactImage from '../assets/images/contactImage.png'
 
 function TitleContact(props) {
-
     return(   
      <>
      <div className='container' >

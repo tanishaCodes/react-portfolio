@@ -3,7 +3,6 @@ import React from 'react';
 import AboutImage from '../assets/images/aboutImage.png'
 
 function TitleAbout(props) {
-
     return(   
      <>
      <div className='container' >

@@ -2,7 +2,6 @@ import React from 'react';
 import { useSpring, animated } from 'react-spring';
 
 function CardInfo(props) {
-
     // Will hold the 'react-spring' style
     const style = useSpring({opacity: 1, from: {opacity: 0}});
     return(
@@ -12,7 +11,6 @@ function CardInfo(props) {
             <a href={props.link} target='_blank' rel='noopener noreferrer'>View</a>
         </animated.div>
     );
-
 }
 
 export default CardInfo;

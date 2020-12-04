@@ -7,13 +7,10 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
-
 import Hero from '../components/hero.js'
 import HomeButton from '../components/HomeButton.js'
 
-
 function Home(props) {
-
     return(   
      <>
       <Hero />
