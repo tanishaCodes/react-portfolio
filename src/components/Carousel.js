@@ -4,12 +4,12 @@ import crystal from '../assets/images/crystal.jpg';
 import train from '../assets/images/train.jpg';
 import flowers from '../assets/images/flowers.jpg';
 import meals from '../assets/images/meals.jpg';
+import whatsapp from '../assets/images/whatsapp.jpg';
 
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 
 import Card from '../components/Card';
-
 
 class Carousel extends React.Component {
     constructor(props) {
@@ -18,18 +18,18 @@ class Carousel extends React.Component {
             items: [
                 {
                     id: 0,
-                    title: 'Crystal Collector',
-                    subTitle: 'A random number game',
-                    imgSrc: crystal,
-                    link: 'https://tanishacodes.github.io/unit-4-game/',
+                    title: 'WhatsApp Clone',
+                    subTitle: 'MERN WhatsApp Clone',
+                    imgSrc: whatsapp,
+                    link: 'https://mern-app-whatsapp.herokuapp.com/',
                     selected: false
                 },
                 {
                     id: 1,
-                    title: 'Train Time',
-                    subTitle: 'Train schedule app',
-                    imgSrc: train,
-                    link: 'https://tanishacodes.github.io/train-time/',
+                    title: 'Neighbor 2 Neighbor',
+                    subTitle: 'Meal donation & pick-up app',
+                    imgSrc: meals,
+                    link: 'https://neighbor-2-neighbor.herokuapp.com/',
                     selected: false
                 },
                 {
@@ -37,15 +37,23 @@ class Carousel extends React.Component {
                     title: 'Flower Memory Game',
                     subTitle: 'Challenging memory game',
                     imgSrc: flowers,
-                    link: 'https://game-memory-react.herokuapp.com/',
+                    link: 'https://flower-memory-game.herokuapp.com/',
                     selected: false
                 },
                 {
                     id: 3,
-                    title: 'Neighbor 2 Neighbor',
-                    subTitle: 'Meal donation & pick-up app',
-                    imgSrc: meals,
-                    link: 'https://neighbor-2-neighbor.herokuapp.com/',
+                    title: 'Train Time',
+                    subTitle: 'Train schedule app',
+                    imgSrc: train,
+                    link: 'https://tanishacodes.github.io/train-time/',
+                    selected: false
+                },
+                {
+                    id: 4,
+                    title: 'Crystal Collector',
+                    subTitle: 'A random number game',
+                    imgSrc: crystal,
+                    link: 'https://tanishacodes.github.io/unit-4-game/',
                     selected: false
                 },
             ]
