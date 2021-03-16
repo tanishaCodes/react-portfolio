@@ -1,5 +1,11 @@
+.color-nav {
+  background-color: #ffffff;
+}
+
 .App {
-  text-align: center;
+  display: flex;
+  width: 100vw;
+  min-height: 100vh;
 }
 
 .App-logo {

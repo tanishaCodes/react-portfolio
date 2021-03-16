@@ -1,3 +1,5 @@
+
+
 import React from 'react';
 
 import { init } from 'emailjs-com';
@@ -11,6 +13,8 @@ import Form from 'react-bootstrap/Form';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+
+require('dotenv').config();
 
 const Button = styled.button`
     background-color: #8c52ff;
