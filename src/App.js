@@ -2,7 +2,8 @@ import React from 'react';
 import {
   BrowserRouter as Router,
   Route,
-  Switch
+  Switch,
+  Link
 } from 'react-router-dom';
 
 import Container from 'react-bootstrap/Container';
@@ -30,6 +31,11 @@ class App extends React.Component {
         { title: 'Portfolio', path: '/portfolio' },
         { title: 'Contact', path: '/contact' }
       ],
+      home: {
+        title: '',
+        subTitle: 'Hello! Welcome to my site.',
+        text: ''
+      },
     }
   }
 
@@ -46,29 +52,30 @@ render() {
 
           <Navbar.Collapse id='responsive-navbar-nav'>
 
-            <Nav className='ml-auto font-weight-bolder'>
-              <Nav.Link href='/'>Home</Nav.Link>
-              <Nav.Link href='/about'>About</Nav.Link>
-              <Nav.Link href='/portfolio'>Portfolio</Nav.Link>
-              <Nav.Link href='/contact'>Contact</Nav.Link>
+          <Nav className='ml-auto font-weight-bolder'>
+              <Link className='nav-link' to='/'>Home</Link>
+              <Link className='nav-link' to='/about'>About</Link>
+              <Link className='nav-link' to='/portfolio'>Portfolio</Link>
+              <Link className='nav-link' to='/contact'>Contact</Link>
             </Nav>
           </Navbar.Collapse>
         </Navbar>
         
-      <Switch>
-        <Route exact path='/'>
-          <Home />
-        </Route> 
-        <Route path='/about'>
-          <About />
-        </Route>    
-        <Route path='/portfolio'>    
-          <Portfolio />
-        </Route>   
-        <Route path='/contact'>
-          <Contact />
-        </Route>
-      </Switch>
+        <Switch>
+          <Route path='/' exact render={() => 
+            <Home 
+              title={this.state.home.title}
+              subTitle={this.state.home.subTitle}
+              text={this.state.home.text}
+            />} />
+          <Route path='/about' exact render={() => 
+             <About />} />
+           <Route path='/portfolio' exact render={() =>            
+            <Portfolio />} />
+           <Route path='/contact' exact render={() =>            
+            <Contact />} />
+        </Switch> 
+        
        <Footer />
       </Container>
     </Router>
