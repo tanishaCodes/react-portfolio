@@ -26,9 +26,3 @@ When you type in your information & message in the contact form and submit it, t
 ## Learning Points
 
 It took me a few months to code this app because my initial desire was to include an email API in the backend. Unfortunately, I could not get the email API to function because the API keys I used from NodeMailer and SendGrid were nonfunctioning. Therefore, I resorted to an email service for the frontend. 
- 
-## Plans
-
-- [ ] Eventually, I will return to this app to include an email API in the backend.
-
-- [ ] I also will change the layout to an SPA.

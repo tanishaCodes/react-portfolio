@@ -23,6 +23,5 @@ function Content(props) {
         </Container>
     );
 } 
-// col-md-4 col-xs-6
 
 export default Content;

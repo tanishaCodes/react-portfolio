@@ -123,13 +123,13 @@ class Contact extends React.Component {
                 </Col>
                 
                 <Col className="icon-box" md={4} xs={6}>
-                    <a href='https://github.com/tanishaCodes' rel='noopener noreferrer' role='button'>
+                    <a href='https://github.com/tanishaCodes' rel='noopener noreferrer' target='_blank' role='button'>
                         <span className="icon-style">
                             <i className="fab fa-github fa-5x"></i>
                         </span>
                     </a>
     
-                    <a href='https://www.linkedin.com/in/tanisha-howell' rel='noopener noreferrer' role='button'>
+                    <a href='https://www.linkedin.com/in/tanisha-howell' rel='noopener noreferrer' target='_blank' role='button'>
                         <span className="icon-style">
                             <i className="fab fa-linkedin fa-5x"></i>
                         </span>
