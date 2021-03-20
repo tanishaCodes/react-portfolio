@@ -16,8 +16,8 @@ function Content(props) {
                     {/* Renders and wraps what you want to pass through inside of the page */}
                     {props.children}
                 </Col>     
-                <Col md={{ span: 4, offset: 0 }}>
-                <Image className='myPhoto' src={MyPhoto} alt='Image of Tanisha' rounded />
+                <Col className='col-auto'>
+                <Image className='myPhoto' src={MyPhoto} alt='Image of Tanisha' roundedCircle />
                 </Col>
             </Row>
         </Container>
