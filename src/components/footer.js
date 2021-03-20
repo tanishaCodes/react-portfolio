@@ -9,7 +9,7 @@ function Footer() {
         <footer className='mt-5'>
             <Container className="lead font-weight-light" fluid={true}>
                 <Row className='border-top justify-content-center p-3'>
-                    <Col className='col-auto'>
+                    <Col md='auto'>
                         &#169;2020 Made by Tanisha Howell
                     </Col>
                 </Row>
