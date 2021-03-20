@@ -3,7 +3,6 @@ import React from 'react';
 import TitleAbout from '../components/TitleAbout';
 import Content from '../components/Content'
 
-
 function About(props) { 
 
   return(
@@ -21,11 +20,11 @@ function About(props) {
         </p>
 
         <p>
-          If you would like to take a look at my latest projects, you can visit my portfolio and my <a href='https://github.com/tanishaCodes' rel='noopener noreferrer'>GitHub</a> pages.
+          If you would like to take a look at my latest projects, you can visit my portfolio and my <a href='https://github.com/tanishaCodes' rel='noopener noreferrer' target='_blank'>GitHub</a> pages.
         </p>
 
         <p>
-          In my spare time, I enjoy painting, hiking and playing with my tuxedo-cat Luna. I would love to connect with you, so please reach out to me through different avenues via my contact page.
+          In my spare time, I enjoy painting, hiking and playing with my tuxedo-cat Luna. I would love to connect with you, so please reach out to me via my contact page.
         </p>
 
         <p>Talk soon!</p>

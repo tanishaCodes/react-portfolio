@@ -11,17 +11,18 @@ import MyPhoto from '../assets/images/myPhoto.jpg'
 function Content(props) {
     return(
         <Container fluid={true}>
-            <Row className="justify-content-center">
-                <Col className="lead font-weight-normal" md={4} xs={6}>
+            <Row className='justify-content-center'>
+                <Col className='lead font-weight-normal' md={{ span: 4, offset: 0 }}>
                     {/* Renders and wraps what you want to pass through inside of the page */}
                     {props.children}
                 </Col>     
-                <Col md={4} xs={6}>
+                <Col md={{ span: 4, offset: 0 }}>
                 <Image className='myPhoto' src={MyPhoto} alt='Image of Tanisha' rounded />
                 </Col>
             </Row>
         </Container>
     );
-}
+} 
+// col-md-4 col-xs-6
 
 export default Content;

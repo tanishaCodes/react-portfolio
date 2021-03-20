@@ -45,7 +45,7 @@ render() {
       <Container className='p-0' fluid={true}>
         <Navbar className='color-nav' collapseOnSelect expand='lg' variant='light' sticky='top'>
           <Navbar.Brand href='/'>
-           <img className='logo' src={Logo} alt='logo' width={175} height={175} />
+           <img className='logo' src={Logo} alt='logo' width={175} height={150} />
           </Navbar.Brand> 
 
           <Navbar.Toggle className='border-0' aria-controls='responsive-navbar-nav' />
@@ -53,10 +53,10 @@ render() {
           <Navbar.Collapse id='responsive-navbar-nav'>
 
           <Nav className='ml-auto font-weight-bolder'>
-              <Link className='nav-link' to='/'>Home</Link>
-              <Link className='nav-link' to='/about'>About</Link>
-              <Link className='nav-link' to='/portfolio'>Portfolio</Link>
-              <Link className='nav-link' to='/contact'>Contact</Link>
+              <Link className='nav-link' exact to='/'>Home</Link>
+              <Link className='nav-link' exact to='/about'>About</Link>
+              <Link className='nav-link' exact to='/portfolio'>Portfolio</Link>
+              <Link className='nav-link' exact to='/contact'>Contact</Link>
             </Nav>
           </Navbar.Collapse>
         </Navbar>
@@ -70,12 +70,12 @@ render() {
             />} />
           <Route path='/about' exact render={() => 
              <About />} />
-           <Route path='/portfolio' exact render={() =>            
-            <Portfolio />} />
-           <Route path='/contact' exact render={() =>            
+          <Route path='/portfolio' exact render={() =>            
+          <Portfolio />} />
+          <Route path='/contact' exact render={() =>            
             <Contact />} />
         </Switch> 
-        
+
        <Footer />
       </Container>
     </Router>

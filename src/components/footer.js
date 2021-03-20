@@ -8,12 +8,9 @@ function Footer() {
     return(
         <footer className='mt-5'>
             <Container className="lead font-weight-light" fluid={true}>
-                <Row className='border-top justify-content-between p-3'>
-                    <Col className='p-0' md={3}>
-                        &#169;2020
-                    </Col>
-                    <Col className='p-0 d-flex justify-content-end' md={3}>
-                        This site was made by Tanisha Howell
+                <Row className='border-top justify-content-center p-3'>
+                    <Col className='col-auto'>
+                        &#169;2020 Made by Tanisha Howell
                     </Col>
                 </Row>
             </Container>

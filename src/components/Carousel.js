@@ -51,7 +51,7 @@ class Carousel extends React.Component {
                 {
                     id: 4,
                     title: 'Crystal Collector',
-                    subTitle: 'A random number game',
+                    subTitle: 'Random number game',
                     imgSrc: crystal,
                     link: 'https://tanishacodes.github.io/unit-4-game/',
                     selected: false
