@@ -2,8 +2,7 @@ import React from 'react';
 import {
   BrowserRouter as Router,
   Route,
-  Switch,
-  Link
+  Switch
 } from 'react-router-dom';
 
 import Container from 'react-bootstrap/Container';
@@ -52,11 +51,19 @@ render() {
 
           <Navbar.Collapse id='responsive-navbar-nav'>
 
-          <Nav className='ml-auto font-weight-bolder'>
-              <Link className='nav-link' exact to='/'>Home</Link>
-              <Link className='nav-link' exact to='/about'>About</Link>
-              <Link className='nav-link' exact to='/portfolio'>Portfolio</Link>
-              <Link className='nav-link' exact to='/contact'>Contact</Link>
+          <Nav className='ml-auto font-weight-bolder' as='ul'>
+            <Nav.Item as='li'>
+              <Nav.Link href='/'>Home</Nav.Link>
+            </Nav.Item>
+            <Nav.Item as='li'>
+              <Nav.Link href='/about'>About</Nav.Link>
+            </Nav.Item>
+            <Nav.Item as='li'>
+              <Nav.Link href='/portfolio'>Portfolio</Nav.Link>
+            </Nav.Item>
+            <Nav.Item as='li'>
+              <Nav.Link href='/contact'>Contact</Nav.Link>
+            </Nav.Item>
             </Nav>
           </Navbar.Collapse>
         </Navbar>
