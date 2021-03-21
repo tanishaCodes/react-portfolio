@@ -94,8 +94,8 @@ class Contact extends React.Component {
             <TitleContact />
     
                 <Container fluid={true}>
-                    <Row className="justify-content-center">
-                        <Col className="lead font-weight-normal" md={4} xs={6}>
+                    <Row className="justify-content-center formPosition">
+                        <Col className="lead font-weight-normal" xs={8} md={8} lg={4}>
                             <Form className='contactForm' onSubmit={this.handleSubmit.bind(this)}>
                             <Form.Group>
                                <Form.Label htmlFor="from_name">Full Name</Form.Label>
@@ -120,11 +120,11 @@ class Contact extends React.Component {
                     {this.state.emailSent===false && <p className="d-inline err-msg">Your Message Was Not Sent</p>} */}
                 </Form>
     
-                <div className='vertical-line'></div>
+                <div className='vertical-line d-none d-lg-block'></div>
     
                 </Col>
                 
-                <Col className="icon-box" md={4} xs={6}>
+                <Col className='icon-box' xs={12} md={10} lg={4}>
                     <a href='https://github.com/tanishaCodes' rel='noopener noreferrer' target='_blank' role='button'>
                         <span className="icon-style">
                             <i className="fab fa-github fa-5x"></i>

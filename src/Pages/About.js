@@ -1,7 +1,7 @@
 import React from 'react';
 
 import TitleAbout from '../components/TitleAbout';
-import Content from '../components/Content'
+import Content from '../components/Content';
 
 function About(props) { 
 
@@ -9,7 +9,7 @@ function About(props) {
     <section className='level'>
      
       <TitleAbout />
-
+    
       <Content>
         <p>
           Hello! My name is Tanisha Howell. I'm a Full Stack Web Developer with experience in MongoDB, Express.js, React, and Node.js or MERN Stack. I also have experience with HTML, CSS, Javascript, jQuery, MySql, Firebase, and APIs.
@@ -30,7 +30,7 @@ function About(props) {
         <p>Talk soon!</p>
 
       </Content>
-
+    
     </section>
  );
 }

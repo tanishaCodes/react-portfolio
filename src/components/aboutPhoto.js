@@ -11,8 +11,8 @@ function AboutPhoto(props) {
      return(
       <Container className='photoPosition' fluid={true}> 
        <Row>
-        <Col md={4} xs={6}>
-            <Image className='myPhoto' src={MyPhoto} alt='Image of Tanisha' rounded />
+        <Col>
+            <Image className='myPhoto' src={MyPhoto} alt='Image of Tanisha' roundedCircle />
         </Col>
        </Row>
       </Container>
