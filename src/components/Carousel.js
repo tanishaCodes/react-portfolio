@@ -4,7 +4,7 @@ import crystal from '../assets/images/crystal.jpg';
 import train from '../assets/images/train.jpg';
 import flowers from '../assets/images/flowers.jpg';
 import meals from '../assets/images/meals.jpg';
-import whatsapp from '../assets/images/whatsapp.jpg';
+import whatsapp from '../assets/images/WhatsappCloneScreenshot.png';
 
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
