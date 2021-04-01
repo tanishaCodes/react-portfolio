@@ -44,7 +44,7 @@ render() {
       <Container className='p-0' fluid={true}>
         <Navbar className='color-nav' collapseOnSelect expand='lg' variant='light' sticky='top'>
           <Navbar.Brand href='/'>
-           <img className='logo' src={Logo} alt='logo' width={175} height={150} />
+           <img className='logo' src={Logo} alt='logo' width={175} height={100} />
           </Navbar.Brand> 
 
           <Navbar.Toggle className='border-0' aria-controls='responsive-navbar-nav' />
