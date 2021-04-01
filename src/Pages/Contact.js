@@ -60,10 +60,10 @@ class Contact extends React.Component {
           'user_KeP3CDRi7oWaUX8ZxtcyD'
           )
         .then((result) => {
-            alert('Message Unsent!');
+            alert('Thank You! Your Message was Sent!');
             console.log(result.text);
         }, (error) => {
-            alert('Message Unsent!');
+            alert('Uh oh! Your Message was Not Sent!');
             console.log(error.text);
         });
         
