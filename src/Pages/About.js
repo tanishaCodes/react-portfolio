@@ -24,10 +24,9 @@ function About(props) {
         </p>
 
         <p>
-          In my spare time, I enjoy painting, hiking and playing with my tuxedo-cat Luna. I would love to connect with you, so please reach out to me via my contact page.
+          In my spare time, I enjoy painting, hiking and playing with my tuxedo-cat Luna. I would love to connect with you, so please reach out to me via my contact page. Talk soon!
         </p>
 
-        <p>Talk soon!</p>
 
       </Content>
     

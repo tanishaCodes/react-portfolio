@@ -9,7 +9,7 @@ import MyPhoto from '../assets/images/myPhoto.jpg'
 
 function AboutPhoto(props) {
      return(
-      <Container className='photoPosition' fluid={true}> 
+      <Container fluid={true}> 
        <Row>
         <Col>
             <Image className='myPhoto' src={MyPhoto} alt='Image of Tanisha' roundedCircle />

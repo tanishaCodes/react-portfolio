@@ -90,7 +90,7 @@ class Contact extends React.Component {
             <TitleContact />
     
                 <Container fluid={true}>
-                    <Row className="justify-content-center formPosition">
+                    <Row className="justify-content-center">
                         <Col className="lead font-weight-normal" xs={8} md={8} lg={4}>
                             <Form className='contactForm' onSubmit={this.handleSubmit.bind(this)}>
                             <Form.Group>
@@ -111,25 +111,32 @@ class Contact extends React.Component {
                               <Button className="d-inline-block" variant="primary" type="submit" disabled={this.state.disabled}>
                                   Send
                               </Button>
-    
-                    {/* {this.state.emailSent===true && <p className="d-inline success-msg">Message Sent</p>}
-                    {this.state.emailSent===false && <p className="d-inline err-msg">Your Message Was Not Sent</p>} */}
                 </Form>
     
-                <div className='vertical-line d-none d-lg-block'></div>
-    
                 </Col>
+                </Row>
+            </Container>
                 
-                <Col className='icon-box' xs={12} md={10} lg={4}>
+                <Container>
+                <Row className='icon-box'>
+                <Col>
                     <a href='https://github.com/tanishaCodes' rel='noopener noreferrer' target='_blank' role='button'>
                         <span className="icon-style">
-                            <i className="fab fa-github fa-5x"></i>
+                            <i className="fab fa-github fa-3x"></i>
                         </span>
                     </a>
-    
+                </Col>
+                <Col>
                     <a href='https://www.linkedin.com/in/tanisha-howell' rel='noopener noreferrer' target='_blank' role='button'>
                         <span className="icon-style">
-                            <i className="fab fa-linkedin fa-5x"></i>
+                            <i className="fab fa-linkedin fa-3x"></i>
+                        </span>
+                    </a>
+                </Col>
+                <Col>
+                    <a href='https://twitter.com/tthewebdev' rel='noopener noreferrer' target='_blank' role='button'>
+                        <span className="icon-style">
+                            <i className="fab fa-twitter fa-3x"></i>
                         </span>
                     </a>
                 </Col>

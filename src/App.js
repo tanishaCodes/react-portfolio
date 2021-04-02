@@ -82,10 +82,10 @@ render() {
           <Route path='/contact' exact render={() =>            
             <Contact />} />
         </Switch> 
-
-       <Footer />
       </Container>
+      <Footer />
     </Router>
+
     );
   }
 }

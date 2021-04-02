@@ -15,8 +15,8 @@ function Home(props) {
      <>
       <Hero />
       <Jumbotron className="bg-transparent jumbotron-fluid">
-            <Container fluid="sm">
-                <Row className="justify-content-center">
+            <Container>
+                <Row>
                     <Col>
                         { props.title && <h1 className="display-1 font-weight-bolder">{props.title}</h1> }
                         { props.subTitle && <h3 className="display-4 font-weight-light center">{props.subTitle}</h3> }
