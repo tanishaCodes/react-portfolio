@@ -116,22 +116,22 @@ class Contact extends React.Component {
                 </Col>
                 </Row>
 
-                <Row className='icon-box'>
-                <Col>
+                <Row>
+                <Col className='icon-box'>
                     <a href='https://github.com/tanishaCodes' rel='noopener noreferrer' target='_blank' role='button'>
                         <span className="icon-style">
                             <i className="fab fa-github fa-3x"></i>
                         </span>
                     </a>
                 </Col>
-                <Col>
+                <Col className='icon-box'>
                     <a href='https://www.linkedin.com/in/tanisha-howell' rel='noopener noreferrer' target='_blank' role='button'>
                         <span className="icon-style">
                             <i className="fab fa-linkedin fa-3x"></i>
                         </span>
                     </a>
                 </Col>
-                <Col>
+                <Col className='icon-box'>
                     <a href='https://twitter.com/tthewebdev' rel='noopener noreferrer' target='_blank' role='button'>
                         <span className="icon-style">
                             <i className="fab fa-twitter fa-3x"></i>
