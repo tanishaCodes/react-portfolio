@@ -115,9 +115,7 @@ class Contact extends React.Component {
     
                 </Col>
                 </Row>
-            </Container>
-                
-                <Container>
+
                 <Row className='icon-box'>
                 <Col>
                     <a href='https://github.com/tanishaCodes' rel='noopener noreferrer' target='_blank' role='button'>
