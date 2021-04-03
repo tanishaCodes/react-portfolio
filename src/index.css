@@ -118,6 +118,7 @@ nav {
 .icon-box {
   display: grid;
   place-items: center;
+  padding:20px;
 }
 
 .icon-style {
